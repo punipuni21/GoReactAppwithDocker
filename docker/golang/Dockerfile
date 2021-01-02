@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-COPY ./go-app /app/go
+ADD ./backend /app/go
 
 WORKDIR /app/go
 
